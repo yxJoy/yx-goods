@@ -1,5 +1,5 @@
 # yx-goods
-高性能商品存储系统
+高性能商品存储系统，期望支撑百亿级
 
 基础架构
 - 通信基于[sofa-boot](https://tech.antfin.com/docs/2/73882)、sofa-rpc
@@ -16,5 +16,6 @@
 
 TODO List
 
- - [x] 封装es
+ - [ ] 封装es
  - [ ] 封装canal接收binlog
+ - [ ] 分库分表
