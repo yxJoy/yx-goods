@@ -37,6 +37,12 @@ public class GoodsServieTest extends AbstractTestBase {
         Assert.assertTrue(response.isSuccess());
     }
 
+    @Test
+    public void testRedis() {
+        String result = goodsReadService.testRedis("yx-goods");
+        Assert.assertEquals("yx-goods, hello", result);
+    }
+
     @Override
     protected void childSetUp() {
 

@@ -87,5 +87,6 @@
     <module>yx-goods-service</module>
     <module>yx-goods-common</module>
     <module>yx-goods-kafka</module>
+    <module>yx-goods-redis</module>
 </modules>
 </project>

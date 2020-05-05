@@ -6,4 +6,6 @@ import com.yx.goods.facade.model.Goods;
 public interface GoodsReadService {
 
     ApiResponse<Goods> getGoodsById(long goodsId);
+
+    String testRedis(String key);
 }

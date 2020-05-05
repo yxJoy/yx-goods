@@ -16,6 +16,11 @@
             <artifactId>yx-goods-facade</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.yx.goods</groupId>
+            <artifactId>yx-goods-redis</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- sofa rpc dependency -->
         <dependency>
             <groupId>com.alipay.sofa</groupId>
