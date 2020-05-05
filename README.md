@@ -4,6 +4,7 @@
 基础架构
 - 通信基于[sofa-boot](https://tech.antfin.com/docs/2/73882)、sofa-rpc
 - 设计二级缓存，内存缓存+分布式缓存
+- 接收数据库binlog同步缓存，以及es数据，记录审计日志信息
 - ES查询
 - 分库分表
 - MQ使用kafka，异步处理数据
