@@ -18,4 +18,4 @@ TODO List
 
  - [ ] 封装es
  - [ ] 封装canal接收binlog
- - [ ] 分库分表
+ - [ ] 分库分表 
